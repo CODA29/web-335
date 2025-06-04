@@ -1,0 +1,23 @@
+{
+    "customer_id": "client01",
+    "firstName": "Craig",
+    "lastName": "Smith",
+    "burgers": [
+        {
+            "burger_id": "burger01",
+            "burgerName": "Classic Whopper",
+            "price": 6.24
+        },
+        {
+            "burger_id": "burger02",
+            "burgerName": "Double Cheeseburger",
+            "price": 8.25
+        },
+        {
+            "burger_id": "burger03",
+            "burgerName": "Veggie burger",
+            "price": 8.12
+        }
+    ]
+        
+}
