@@ -1,0 +1,45 @@
+{
+  "viewers": [
+    {
+      "_id": "viewer1",
+      "firstName": "Dagmawi",
+      "lastName": "Megra",
+      "movies": [
+        {
+          "_id": "movie1",
+          "movieName": "Sinners",
+          "genre": "Horror",
+          "rating": {
+            "_id": "rating1",
+            "ratingScore": 5
+          }
+        },
+        {
+          "_id": "movie2",
+          "movieName": "Forest Gump",
+          "genre": "Drama",
+          "rating": {
+            "_id": "rating2",
+            "ratingScore": 4
+          }
+        }
+      ]
+    },
+    {
+      "_id": "viewer2",
+      "firstName": "Danny",
+      "lastName": "Smith",
+      "movies": [
+        {
+          "_id": "movie3",
+          "movieName": "The Matrix",
+          "genre": "Sci-Fi",
+          "rating": {
+            "_id": "rating3",
+            "ratingScore": 5
+          }
+        }
+      ]
+    }
+  ]
+}
