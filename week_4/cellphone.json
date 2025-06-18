@@ -1,0 +1,27 @@
+{
+  "user_id": "u1001",
+  "firstName": "Hellen",
+  "lastName": "Nguyen",
+  "devices": [
+    {
+      "device_id": "d1001",
+      "device_name": "iPhone 15 Pro",
+      "device_type": "smartphone",
+      "charger": {
+        "charger_id": "c501",
+        "type": "wireless",
+        "voltage": 15
+      }
+    },
+    {
+      "device_id": "d1002",
+      "device_name": "iPad Air",
+      "device_type": "tablet",
+      "charger": {
+        "charger_id": "c502",
+        "Type": "USB-C",
+        "voltage": 30
+      }
+    }
+  ]
+}
