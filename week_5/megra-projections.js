@@ -7,7 +7,7 @@
 
 
 // A. Add a new user to the user’s collection
-user = {firstName: 'Dagmawi', lastName: 'Megra', emplyeeId: '1013', email: 'dmegra@me.com', dateCreated: new Date()};
+user = {firstName: 'Dagmawi', lastName: 'Megra', employeeId: '1013', email: 'dmegra@me.com', dateCreated: new Date()};
 
 db.users.insertOne(user);
 
@@ -24,4 +24,4 @@ db.users.findOne({lastName: 'Mozart'});
 
 // C. Display all users in the collection. Use projections to 
 // only show the first name, last name, and email address
-db.users.find({}, {_id: 0, firstName: 1, lastName: 1, emplyeeId: 0, email: 1, dateCreated: 0});  
+db.users.find({}, {_id: 0, firstName: 1, lastName: 1, employeeId: 0, email: 1, dateCreated: 0});  
